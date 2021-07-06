@@ -1,9 +1,14 @@
+body{
+    margin:0;
+    padding:0;
+}
+/*home section*/
 #home{
     display: flex;
 }
 .half-width{
     width:50%;
-   margin: 10px 20px;
+    margin: 10px 20px;
    padding: 10px;
 }
 .half-width h1{
@@ -38,6 +43,7 @@
     color:ghostwhite;
 }
 /* About us section*/
+
 #about_us{
     display:flex;
     background-image: url(img/Frame\ 58.jpg);
@@ -53,8 +59,69 @@
     color:cornsilk;
 
 }
-
 .half-width img{
     margin-left: 70px;
     margin-top: 40px;
+}
+
+/*Foods Section*/
+
+#foods h1{
+    text-align: center;
+    color:olivedrab;
+}
+#foods p{
+    text-align: center;
+    color: rgb(179, 140, 147);
+}
+.food_item{
+    display:flex;
+    width:100%;
+   
+
+}
+.dishes{
+    width:40%;
+    padding:10px;
+    margin: 35px;
+    border:2px solid yellowgreen;
+    border-radius: 20px;
+    box-shadow: rgb(141, 87, 48) 10px 20px 20px;
+
+
+}
+.dishes picture{
+border-radius: 5px solid;
+border:2px solid;
+align-items: center;
+
+}
+.dishes h2{
+    text-align: center;
+    color:rgb(5, 86, 136);
+}
+
+    
+
+.dishes img{
+    margin-left: 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+/*footer section*/
+
+#footer{
+    height:200px;
+    width:100%;
+    background-color: rgb(34, 29, 29);
+}
+.address h1{
+    color: rgb(187, 70, 76);
+    text-align: center;
+    padding:15px;
+}
+.address p{
+    text-align: center;
+    color: #ffffff;
 }
